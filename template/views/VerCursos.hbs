@@ -1,0 +1,51 @@
+{{>header}}
+
+
+
+{{#if admin}}
+<div class="jumbotron">
+	<div class="container">
+		<header>
+			<h1>Como Admin</h1>
+		</header>
+	</div>
+</div> 
+
+{{{ActualizadoCurso curso}}}
+{{{ListarCursos}}}
+
+<div style="padding:4%;">
+	<form action="/ActualizarEstado" method="post">
+		<div class="form-row" style="align-items: center;text-align: center;">
+			<div class="col">
+				<label for="Id">Curso</label>
+			</div>
+			<div class="col">
+				{{{ListarCursosDropdown}}}
+			</div>
+			<div class="col">
+				<button type="submit" class="btn btn-primary">Actualizar</button>
+			</div>
+		</div>
+
+	</form>
+</div>
+{{else}}
+
+
+
+
+<div class="jumbotron">
+	<div class="container">
+		<header>
+			<h1>Como Interesado</h1>
+			<p>Para ver mas informacion haga click en la fila del curso</p>
+		</header>
+	</div>
+</div> 
+
+{{{ListarCursosEstudiante}}}
+{{/if}}
+
+
+{{>footer}}
