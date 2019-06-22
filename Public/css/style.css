@@ -19,3 +19,15 @@ h1 {
 	font-size: 48px;
 	margin-bottom: 16px;
 }
+
+#login .container,
+.new
+{
+	width: 300px;
+}
+#login .new
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}

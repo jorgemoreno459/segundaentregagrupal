@@ -1,12 +1,12 @@
 {
-  "name": "primera-grupos",
+  "name": "primera-de-grupos",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Juan Riveros juan.camilo.riveros@hotmail.com",
+  "author": "Jorge Moreno",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
